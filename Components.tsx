@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
     margin: 5,
   },
   box: {
-    width: '100%',
+    width: 500,
     backgroundColor: 'green',
     margin: 5,
   }

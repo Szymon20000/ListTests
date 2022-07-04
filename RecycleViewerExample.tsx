@@ -46,7 +46,7 @@ class List extends Component<Props, State> {
       });
     }
     return <View style={{ flex: 1, borderWidth: 1, borderColor: 'yellow' }}>
-      <RecyclerListView rowRenderer={this._renderRow.bind(this)} dataProvider={this.dataProvider}
+      <RecyclerListView forceNonDeterministicRendering={true} rowRenderer={this._renderRow.bind(this)} dataProvider={this.dataProvider}
         layoutProvider={this._layoutProvider} />
     </View>
   }
